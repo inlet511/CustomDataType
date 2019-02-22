@@ -6,7 +6,7 @@ public class TestEditor : ModuleRules
     {
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
         PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "UnrealEd", "CustomDataType" });
-        PrivateDependencyModuleNames.AddRange(new string[] { "AssetTools", "Slate","SlateCore", "Projects" });
+        PrivateDependencyModuleNames.AddRange(new string[] { "AssetTools", "Slate","SlateCore", "Projects", "KismetWidgets" });
 
     }
 }
